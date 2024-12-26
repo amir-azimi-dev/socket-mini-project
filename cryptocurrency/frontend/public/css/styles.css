@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-y: hidden !important;
+  font-family: "IranSans";
+  background: white;
+}
+
+.coins-page {
+  overflow-y: auto !important;
+
+}
+
+span {
+  max-height: max-content;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid var(--gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#header * {
+  display: flex;
+  align-content: center;
+}
+
+#content {
+  width: 100%;
+}
+
+.bi {
+  font-size: 21px;
+  height: max-content;
+  height: max-content !important;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 46px;
+  transition: all ease 250ms;
+}
+
+.icon-button * {
+  transition: all ease 250ms;
+}
+
+.icon-button:active * {
+  scale: 0.9;
+}
+
+#content-container {
+  width: 100%;
+  height: 95vh;
+  position: relative;
+  display: flex;
+}
+
+#chart-field {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#sidebar {
+  min-width: 50px;
+  height: 100vh;
+  border-right: 1px solid var(--gray);
+}
+
+#sidebar div {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(105, 105, 105);
+  cursor: pointer;
+  transition: all ease 250ms;
+}
+.first-div {
+  min-height: 50px;
+}
+
+#sidebar div i {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  color: white;
+  padding: 8px 16px 10px;
+  border-radius: 6px;
+  background: teal;
+  transition: all ease 200ms;
+  font-size: 13px;
+}
+
+.login-button:hover {
+  background: rgba(0, 128, 128, 0.671);
+}
+
+.navigation {
+  border-bottom: 1px solid var(--gray);
+  height: 62px!important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 82px;
+}
+
+.get-prime {
+  background: linear-gradient(45deg, rgb(162, 0, 255), rgb(0, 183, 255));
+  border-radius: 6px;
+  padding: 8px 16px 10px;
+  transition: all ease 200ms;
+  color: white;
+  font-size: 13px;
+}
+
+
+.table {
+  width: 70%;
+  margin: 40px auto;
+  border: 1px solid var(--gray);
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.table-head {
+  height: 64px;
+  display: flex;
+  user-select: none;
+  align-items: center;
+  border-bottom: 1px solid var(--gray);
+  width: 100%!important;
+}
+
+.table-head * {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4b4b4b;
+  font-size: 12px;
+}
+
+.table-head-row {
+  width: 100%;
+}
+
+.table-main {
+  width: 100%;
+  font-size: 14px;
+}
+
+.table-main * {
+  height: 90px;
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--gray);
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.increase {
+  color: teal;
+}
+
+.decrease {
+  color: red;
+}
+
+.table-row * {
+  width: 100%!important;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+
+.coin-name {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: start;
+  border: 0;
+}
+
+.coin-icon {
+  width: 64px!important;
+  height: 64px;
+  border: 0;
+}
+
+.coin-name div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  border: 0;
+  
+}
+
+.coin-name div * {
+  height: max-content;
+  border: 0;
+  max-width: max-content;
+  border: 0;
+}
+
+.coin-shortName {
+  color: rgb(153, 153, 153);
+  border: 0;
+}
+

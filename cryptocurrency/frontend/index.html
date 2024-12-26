@@ -1,0 +1,170 @@
+<!-- Sabzlearn.ir - Started : 11:40 -->
+<!DOCTYPE html>
+<html lang="fa-IR" style="direction: rtl;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live-chart</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="stylesheet" href="./public/css/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Links -->
+    <script type="text/javascript"
+        src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+
+<body class="flex">
+    <!-- Wrapper -->
+    <section id="content">
+        <!-- Header -->
+        <header id="header">
+            <div class="header-right-side min-h-full">
+                <div>
+                    <span class="icon-button border-x">
+                        <i class="bi bi-camera"></i>
+                    </span>
+                </div>
+                <div>
+                    <span class="icon-button border-x fs-base">
+                        <i class="bi bi-bounding-box-circles "></i>
+                    </span>
+                </div>
+
+                <div class="flex-centered fs-xs">
+                    <a href="#" class="flex-centered fs-small gap-8 px-md h-full">
+                        <span class="gray-500">
+                            <i class="bi bi-arrow-down-short"></i>
+                        </span>
+                        <span>
+                            ذخیره
+                        </span>
+                        <span class="gray-500">
+                            <i class="bi bi-cloud-arrow-down"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="min-h-full bg-sky-500 ">
+                    <a href="#" class="fs-small flex-centered bg-sky-500 d-block px-md">
+                        <span>انتشار</span>
+                    </a>
+                </div>
+                <div class="min-h-full cursor-pointer fs-xs flex between px-lg gray-500 border-x w-260px">
+                    <span>
+                        تعمیل عملکردی
+                    </span>
+                    <span class="gray-500">
+                        <i class="bi bi-arrow-down-short"></i>
+                    </span>
+
+                </div>
+                <div class="px-lg cursor-pointer border-x flex-centered gray-500 fs-xs">
+                    <span>
+                        نشان دادن علائم
+                    </span>
+
+                </div>
+            </div>
+            <div class="header-left-side h-full">
+                <div class="border-x h-full flex-centered px-lg gap-8 fs-">
+                    <span class="h-full flex-centered gray-100 ">
+                        <i class="bi bi-arrow-return-right fs-sm"></i>
+                    </span>
+                    <span class="h-full flex-centered">
+                        <i class="bi bi-arrow-return-left fs-sm cursor-pointer"></i>
+                    </span>
+                </div>
+                <div class="border-x h-full flex-centered px-lg gap-8 fs-small cursor-pointer gray-600">
+                    <span>
+                        اندیکاتور ها
+                    </span>
+                    <i class="bi bi-pie-chart fs-xs"></i>
+                </div>
+                <div class="border-x h-full flex-centered px-lg gap-8 fs-small cursor-pointer gray-600">
+                    <span>
+                        مقایسه
+                    </span>
+                    <i class="bi bi-clipboard2-data fs-small"></i>
+                </div>
+                <div class="border-x h-full flex-centered px-lg gap-8 fs-small cursor-pointer gray-600">
+                    D
+                </div>
+            </div>
+        </header>
+
+        <div id="content-container">
+            <!-- Chart -->
+            <div id="container"></div>
+
+
+        </div>
+    </section>
+    <!-- Sidebar  -->
+    <aside id="sidebar">
+        <div class="first-div">
+            <i class="bi bi-arrows-move"></i>
+        </div>
+        <div>
+            <i class="bi bi-brush"></i>
+        </div>
+        <div>
+            <i class="bi bi-crosshair"></i>
+        </div>
+        <div><i class="bi bi-cursor"></i></div>
+        <div>
+            <i class="bi bi-distribute-vertical"></i>
+        </div>
+        <div>
+            <i class="bi bi-eyeglasses"></i>
+        </div>
+        <div>
+            <i class="bi bi-fonts"></i>
+        </div>
+        <div>
+            <i class="bi bi-hand-index"></i>
+        </div>
+        <div>
+            <i class="bi bi-hdd-rack"></i>
+        </div>
+        <div>
+            <i class="bi bi-house-add"></i>
+        </div>
+        <div>
+            <i class="bi bi-lightbulb"></i>
+        </div>
+
+        <!--  -->
+        <div>
+            <i class="bi bi-marker-tip"></i>
+        </div>
+        <div>
+            <i class="bi bi-palette2"></i>
+        </div>
+        <div>
+            <i class="bi bi-pass"></i>
+        </div>
+        <div>
+            <i class="bi bi-phone-vibrate"></i>
+        </div>
+        <div>
+            <i class="bi bi-reply-fill"></i>
+        </div>
+        <div>
+            <i class="bi bi-signpost"></i>
+        </div>
+        <div>
+            <i class="bi bi-hdd-rack"></i>
+        </div>
+
+        <div>
+            <i class="bi bi-trash"></i>
+        </div>
+    </aside>
+
+    <script src="./scripts/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconsax-font-icon@1.1.0/fantasticonrc.min.js"></script>
+</body>
+
+</html>

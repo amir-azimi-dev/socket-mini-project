@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "بیت کوین",
+        "shortName": "BTC",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/200x200/1.png",
+        "price": 24981,
+        "tomanPrice": 2218928,
+        "changePercent": 3.98,
+        "marketValue": 229.11,
+        "transaction": 45,
+        "status": "increase"
+    },
+    {
+        "id": 2,
+        "title": "په په کوین",
+        "shortName": "PEPE",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2eb51OkTWjvWX75jAAv7YaMVMgH3U7630Ng&s",
+        "price": 12387,
+        "tomanPrice": 2123928,
+        "changePercent": 5.32,
+        "marketValue": 198.81,
+        "transaction": 32,
+        "status": "decrease"
+    },
+    {
+        "id": 3,
+        "title": "اتریوم",
+        "shortName": "ETH",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png",
+        "price": 78918,
+        "tomanPrice": 2443198,
+        "changePercent": 8.12,
+        "marketValue": 432.21,
+        "transaction": 89,
+        "status": "increase"
+    },
+    {
+        "id": 4,
+        "title": "بایننس کوین",
+        "shortName": "BNB",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
+        "price": 38182,
+        "tomanPrice": 2992123,
+        "changePercent": 2.1,
+        "marketValue": 637.81,
+        "transaction": 53,
+        "status": "increase"
+    },
+    {
+        "id": 5,
+        "title": "تتر",
+        "shortName": "USDT",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+        "price": 29372,
+        "tomanPrice": 3121382,
+        "changePercent": 3.28,
+        "marketValue": 217.22,
+        "transaction": 71,
+        "status": "decrease"
+    },
+    {
+        "id": 6,
+        "title": "سولانا",
+        "shortName": "SOL",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+        "price": 67291,
+        "tomanPrice": 1212781,
+        "changePercent": 4.53,
+        "marketValue": 178.45,
+        "transaction": 66,
+        "status": "decrease"
+    }
+]
